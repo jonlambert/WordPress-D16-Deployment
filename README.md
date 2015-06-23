@@ -7,7 +7,7 @@ Prerequisites:
 
 Installation:
 
-1. Clone this repository
+1. [Download this repository](https://github.com/jonlambert/WordPress-D16-Deployment/archive/master.zip)
 2. `$ cd <path to repository>`
 3. Run the following code: 
 ```bash
