@@ -34,7 +34,7 @@ cp ./website/wp-config-sample.php ./website/wp-config.php
 perl -pi -e 's/database_name_here/wordpress/g' ./website/wp-config.php
 perl -pi -e 's/username_here/root/g' ./website/wp-config.php
 perl -pi -e 's/password_here/root/g' ./website/wp-config.php
-echo -e "define('WP_HOME','http://dream16.local');\ndefine('WP_SITEURL','http://dream16.local');" >> ./website/wp-config.php
+SITE = "define('WP_HOME','http://dream16.local');\ndefine('WP_SITEURL','http://dream16.local');" >> ./website/wp-config.php
 
 # echo -e \"Host code.private.evada.co.uk\n\tStrictHostKeyChecking no\n\" >> ~/.ssh/config && \
 echo "WordPress configured."

@@ -14,7 +14,7 @@ apt-get update && \
 apt-get install -y apache2 php5 libapache2-mod-php5 mysql-server-5.5 php5-mysql git
 
 # Clear out the dream root dir
-rm -rf /var/www/*
+rm -rf /var/www/html/index.html
 
 # Set the locale to stop Ubuntu whinging
 sudo locale-gen en_GB.UTF-8
